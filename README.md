@@ -1,0 +1,2 @@
+# M2ASR-Multilingual-Multi-Task-Automatic-Speech-Recognition-via-Multi-Objective-Optimization
+This repository contains the implementation of the Multi-Modal Adaptive Speech Recognition (M$^2$ASR) framework presented in our Interspeech 2024 paper. The codebase includes data preprocessing, model training, evaluation scripts, and all necessary configurations to reproduce the results reported in the paper.
