@@ -20,6 +20,6 @@ To enable the capability of speech models across multiple languages, training mu
 Clone the repository and install the required dependencies:
 
 ```bash
-git clone https://github.com/yourusername/m2asr.git
+git clone (https://github.com/afmsaif/M2ASR.git)
 cd m2asr
 pip install -r requirements.txt
