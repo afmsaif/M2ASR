@@ -23,6 +23,7 @@ Clone the repository and install the required dependencies:
 git clone (https://github.com/afmsaif/M2ASR.git)
 cd m2asr
 pip install -r requirements.txt
+```
 
 ## Acknowledgement
 
