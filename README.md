@@ -23,3 +23,7 @@ Clone the repository and install the required dependencies:
 git clone (https://github.com/afmsaif/M2ASR.git)
 cd m2asr
 pip install -r requirements.txt
+
+## Acknowledgement
+
+This work was supported by the Rensselaer-IBM AI Research Collaboration, part of the IBM AI Horizons Network
