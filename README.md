@@ -1,24 +1,25 @@
-# M2ASR-Multilingual-Multi-Task-Automatic-Speech-Recognition-via-Multi-Objective-Optimization
-This repository contains the implementation of the Multi-Modal Adaptive Speech Recognition (M$^2$ASR) framework presented in our Interspeech 2024 paper. The codebase includes data preprocessing, model training, evaluation scripts, and all necessary configurations to reproduce the results reported in the paper.
+# M2ASR: Multilingual Multi-Task Automatic Speech Recognition via Multi-Objective Optimization
 
-# M$^2$ASR: Multi-Modal Adaptive Speech Recognition
+This repository contains the code for the paper titled **"M2ASR: Multilingual Multi-Task Automatic Speech Recognition via Multi-Objective Optimization"** by A F M Saif, Lisha Chen, Xiaodong Cui, Songtao Lu, Brian Kingsbury, and Tianyi Chen. The paper was presented at Interspeech 2024.
 
-This repository contains the implementation of the Multi-Modal Adaptive Speech Recognition (M$^2$ASR) framework presented in our Interspeech 2024 paper. The codebase includes data preprocessing, model training, evaluation scripts, and all necessary configurations to reproduce the results reported in the paper.
+## Abstract
 
-## Table of Contents
-1. [Introduction](#introduction)
-2. [Installation](#installation)
-3. [Data Preparation](#data-preparation)
-4. [Training](#training)
-5. [Evaluation](#evaluation)
-6. [Results](#results)
-7. [Contributing](#contributing)
-8. [Citation](#citation)
-9. [License](#license)
+To enable the capability of speech models across multiple languages, training multilingual, multi-task automatic speech recognition (ASR) models has gained growing interest. However, different languages and tasks result in distinct training objectives, potentially leading to sub-optimal solutions. This work introduces a novel framework for multilingual multi-task ASR using multi-objective optimization to effectively balance the various training objectives and improve overall performance.
 
-## Introduction
-The M$^2$ASR framework integrates multi-modal data to enhance speech recognition performance. It leverages a combination of Librispeech and AISHELL datasets to train robust models capable of handling both English and Chinese speech. This repository includes methods for:
-- Data preprocessing and augmentation
-- Training using multiple modalities
-- Dynamic and static model adaptation
-- Evaluation and result visualization
+## Repository Structure
+
+- `src/` : Contains the source code for the M2ASR model.
+- `data/` : Includes scripts for data preprocessing and loading.
+- `scripts/` : Contains various utility scripts for training, evaluation, and other tasks.
+- `models/` : Pretrained models and model checkpoints.
+- `results/` : Directory to save evaluation results and logs.
+- `README.md` : This readme file.
+
+## Installation
+
+Clone the repository and install the required dependencies:
+
+```bash
+git clone https://github.com/yourusername/m2asr.git
+cd m2asr
+pip install -r requirements.txt
