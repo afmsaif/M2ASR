@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="figure/model.pdf" width="400" title="M2ASR Framework">
+  <img src="figure/model.png" width="400" title="M2ASR Framework">
 </p>
 
 
