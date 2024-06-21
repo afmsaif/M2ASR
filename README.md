@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="figure/model.pdf" width="500" title="BL-JUST Framework">
+</p>
+
+
+
 # M2ASR: Multilingual Multi-Task Automatic Speech Recognition via Multi-Objective Optimization
 
 ## Abstract
