@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="figure/model.pdf" width="300" title="BL-JUST Framework">
+  <img src="figure/model.pdf" width="400" title="BL-JUST Framework">
 </p>
 
 
